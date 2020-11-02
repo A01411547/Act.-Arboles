@@ -1,0 +1,24 @@
+Este proyecto contiene la implementación de un arbol heap 
+para almacenar los registros de un gimansio por meses.
+
+Se encarga de generar un reporte que diga cuales meses son los
+que han tenido una mayor cantidad de ingresos totales. 
+
+Complejidades involucradas en main:
+push en heap: o(log n)
+lectura de archivo inicial: o(n)
+
+
+Caso de prueba: 
+ejecutar con archivo input "bitacora2_3"
+
+Success: 
+Oct with 3 accesses.
+
+Jul with 4 accesses.
+
+Aug with 4 accesses.
+
+Jun with 8 accesses.
+
+Sep with 9 accesses.
